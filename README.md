@@ -5,12 +5,12 @@ This Python project detects the user's approximate geographic location using the
 
 Install required libraries:
 
-pip install geocoder geopy
+    pip install geocoder geopy
 
 
 If needed:
 
-pip3 install geocoder geopy
+    pip3 install geocoder geopy
 
 ▶ How to Run the Code
 
@@ -18,7 +18,7 @@ pip3 install geocoder geopy
 2️⃣ Open Terminal / Command Prompt in that folder
 3️⃣ Run:
 
-python geo.py
+    python geo.py
 
 🧭 How It Works (Step-by-Step)
 

@@ -24,8 +24,6 @@ If needed:
 
 🧭 How It Works (Step-by-Step)
 
-You can add this to your GitHub README.
-
 Step 1 — Get Location from IP
 
     g = geocoder.ip('me')

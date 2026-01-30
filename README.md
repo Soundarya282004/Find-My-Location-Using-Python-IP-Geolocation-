@@ -49,13 +49,17 @@ Step 4 — Print Address
     print("Address = ", location.address)
 
 🌍 Example Output
-Latitude = 12.9715987
-Longitude = 77.5945627
-Address =  Bengaluru, Karnataka, India
+
+    Latitude = 12.9715987
+    Longitude = 77.5945627
+    Address =  Bengaluru, Karnataka, India
 
 ⚠️ Important Notes
 
 🔹 This gives approximate location (based on IP, not GPS)
+
 🔹 Accuracy depends on your internet provider
+
 🔹 Requires internet connection
+
 🔹 First run may be slightly slow due to API request

@@ -39,14 +39,14 @@ Step 2 — Display Coordinates
 Coordinates are printed with high precision.
 
 Step 3 — Convert Coordinates to Address
-geolocator = Nominatim(user_agent="current_location_app")
-location = geolocator.reverse(f"{lat}, {lon}")
 
-
+    geolocator = Nominatim(user_agent="current_location_app")
+    location = geolocator.reverse(f"{lat}, {lon}")
 This uses OpenStreetMap’s Nominatim API to turn coordinates into a real-world address.
 
 Step 4 — Print Address
-print("Address = ", location.address)
+
+    print("Address = ", location.address)
 
 🌍 Example Output
 Latitude = 12.9715987

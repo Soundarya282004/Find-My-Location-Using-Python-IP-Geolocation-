@@ -18,23 +18,24 @@ If needed:
 2️⃣ Open Terminal / Command Prompt in that folder
 3️⃣ Run:
 
-    python geo.py
+      python geo.py
 
 🧭 How It Works (Step-by-Step)
 
 You can add this to your GitHub README.
 
 Step 1 — Get Location from IP
-g = geocoder.ip('me')
-lat, lon = g.latlng
+
+    g = geocoder.ip('me')
+    lat, lon = g.latlng
 
 
 The script uses your IP address to estimate your current latitude and longitude.
 
 Step 2 — Display Coordinates
+
 print("Latitude =", format(lat, '.7f'))
 print("Longitude =", format(lon, '.7f'))
-
 
 Coordinates are printed with high precision.
 

@@ -15,7 +15,9 @@ If needed:
 ▶ How to Run the Code
 
 1️⃣ Save the file as geo.py
+
 2️⃣ Open Terminal / Command Prompt in that folder
+
 3️⃣ Run:
 
       python geo.py
